@@ -71,6 +71,7 @@ class AuthController extends Controller
      * @param  string $token
      *
      * @return \Illuminate\Http\JsonResponse
+     * @return \Illuminate\Http\JsonResponse
      */
     protected function respondWithToken($token)
     {
